@@ -1,0 +1,66 @@
+body {
+	background-image: url(images/purple1.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	font-family: "Arial", sans-serif;
+}
+
+h1, h2 {
+	font-family: "Orbitron", sans-serif;
+}
+
+a {
+	font-family: "Orbitron", sans-serif;
+	text-decoration: none;
+	color: #60ffdf;
+	transition: color 0.3s ease;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 900;
+	text-shadow: 2px 2px 4px  #00d3b7;
+	font-size: 14px;
+}
+
+a:hover{
+	color: #ff162a;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 5px  #960914
+}
+
+#followme-links {
+	font-size: 100px;
+}
+
+#hobbies-list {
+	text-align: left;
+}
+
+.img-round {
+        width: 270px; /* Set the width of the image */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 4%;
+}
+
+div {
+	margin: 30px;
+}
+
+.headers_transition {
+	background-color: rgba(0, 0, 0, 50%);
+	transition: background-color 0.3s ease;
+	border: 2px solid white;
+	border-radius: 2%;
+	margin: 50px;
+	padding: 25px;
+	text-align: center;
+}
+
+.headers_transition:hover{
+	background-color: rgba(255, 255, 255, 80%);
+	color: black;
+	transition: color 0.3s ease;
+}
